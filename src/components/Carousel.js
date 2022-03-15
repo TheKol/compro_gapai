@@ -8,8 +8,16 @@ const IMAGE_SLIDE = [
     imageAlt: 'kegiatan 1',
   },
   {
-    imageSrc: 'images/bg-login.jpg',
-    imageAlt: 'bg login',
+    imageSrc: 'images/kegiatan4_800x480.jpeg',
+    imageAlt: 'kegiatan 4',
+  },
+  {
+    imageSrc: 'images/kegiatan5_800x480.jpeg',
+    imageAlt: 'kegiatan 5',
+  },
+  {
+    imageSrc: 'images/kegiatan8_800x480.jpeg',
+    imageAlt: 'kegiatan 8',
   },
 ];
 
@@ -31,7 +39,7 @@ const Carousel = () => {
           <img
             src={slide.imageSrc}
             alt={slide.imageAlt}
-            className='object-cover w-full h-full'
+            className='object-cover w-full h-full rounded-2xl'
           />
         </SplideSlide>
       ))}

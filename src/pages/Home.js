@@ -1,6 +1,8 @@
-import Carousel from '../component/Carousel';
-import Hero from '../component/Hero';
-import Layout from '../component/Layout';
+import ContactUs from '../components/ContactUs';
+import Galery from '../components/Galery';
+import Hero from '../components/Hero';
+import Layout from '../components/Layout';
+import Services from '../components/Services';
 
 const Home = () => {
   return (
@@ -11,16 +13,16 @@ const Home = () => {
           alt='discount'
           className='w-10 h-10'
         />
-        <p className='text-white text-xl underline'>Discount</p>
+        <p className='text-white text-xl font-semibold underline'>Discount</p>
       </div>
       <Layout
         logoSrc='images/logo_gapai_security.png'
         logoAlt='Logo gapai security'
       >
         <Hero />
-        <div className='max-w-[800px] mx-auto'>
-          <Carousel />
-        </div>
+        <Services />
+        <Galery />
+        <ContactUs />
       </Layout>
     </>
   );
