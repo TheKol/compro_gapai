@@ -15,12 +15,13 @@ const Hero = () => {
             memastikan keadaan aman tanpa kendala dan selalu sigap menjaga
             keselamatan orang sekitar.
           </p>
-          <button
-            className='text-white bg-slate-800 shadow-lg shadow-slate-800/50
+          <a
+            href='#contact'
+            className='text-center text-white bg-slate-800 shadow-lg shadow-slate-800/50
           hover:bg-opacity-70 w-1/2 py-4 rounded-full text-lg font-semibold'
           >
             HUBUNGI KAMI SEKARANG
-          </button>
+          </a>
         </div>
       </div>
       <div className='w-1/2 flex justify-center'>
