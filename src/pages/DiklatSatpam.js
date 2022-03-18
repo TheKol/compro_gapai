@@ -4,6 +4,8 @@ import Layout from '../components/Layout';
 const DiklatSatpam = () => {
   return (
     <Layout
+      company='PT. Garda Media Putra Indonesia'
+      subCompany='GAPAI GUARD'
       logoSrc='images/logo_gapai_security.png'
       logoAlt='Logo gapai security'
     >
