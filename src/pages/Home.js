@@ -2,6 +2,7 @@ import ContactUs from '../components/ContactUs';
 import Galery from '../components/Galery';
 import Hero from '../components/Hero';
 import Layout from '../components/Layout';
+import MitraKerja from '../components/MitraKerja';
 import Services from '../components/Services';
 
 const Home = () => {
@@ -16,11 +17,14 @@ const Home = () => {
         <p className='text-white text-xl font-semibold underline'>Discount</p>
       </div>
       <Layout
+        company='PT. Garda Media Putra Indonesia'
+        subCompany='GAPAI GUARD'
         logoSrc='images/logo_gapai_security.png'
         logoAlt='Logo gapai security'
       >
         <Hero />
         <Services />
+        <MitraKerja />
         <Galery />
         <ContactUs />
       </Layout>
