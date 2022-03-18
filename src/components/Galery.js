@@ -3,9 +3,9 @@ import Carousel from './Carousel';
 
 const Galery = () => {
   return (
-    <div className='flex flex-col items-center pt-20 gap-16 h-[1100px]'>
+    <div className='flex flex-col items-center pt-20 gap-16 xl:h-[1100px] lg:h-[950px] md:h-[800px] sm:h-[635px] h-[550px]'>
       <div>
-        <h2 className='max-w-[1000px] font-bold text-5xl text-center'>
+        <h2 className='max-w-[1000px] font-bold xl:text-5xl md:text-4xl sm:text-3xl text-2xl text-center'>
           Gapai Guard
           <br />
           layanan keamanan profesional

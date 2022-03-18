@@ -9,8 +9,8 @@ const ServiceCard = ({
 }) => {
   return (
     <div
-      className='group h-[750px] w-[500px] flex flex-col items-center rounded-b-[40px]
-    rounded-tr-[40px] gap-10 justify-center bg-[#f8f9fa] hover:bg-white hover:shadow-xl
+      className='group h-[750px] w-[400px] flex flex-col items-center rounded-b-[40px]
+    rounded-t-[40px] gap-10 justify-center bg-[#f8f9fa] hover:bg-white hover:shadow-xl
     ease-in-out duration-300'
     >
       <img
