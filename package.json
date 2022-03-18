@@ -1,5 +1,6 @@
 {
   "name": "kompro_gapai",
+  "homepage": "https://gapai.co.id",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

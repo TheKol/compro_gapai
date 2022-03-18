@@ -25,13 +25,7 @@ const ServiceCard = ({
         <h3 className='text-2xl font-bold'>{serviceTitle}</h3>
         <p className='text-lg'>{serviceDesk}</p>
       </div>
-      <a
-        href='#contact'
-        className='border-2 border-[#0070f6] py-4 px-6 rounded-full text-[#0070f6]
-      font-bold group-hover:bg-[#0070f6] group-hover:text-white ease-in-out duration-300'
-      >
-        {serviceButton}
-      </a>
+      {serviceButton}
     </div>
   );
 };

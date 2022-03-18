@@ -18,7 +18,7 @@ const Hero = () => {
           <a
             href='#contact'
             className='text-center text-white bg-slate-800 shadow-lg shadow-slate-800/50
-          hover:bg-opacity-70 w-1/2 py-4 rounded-full text-lg font-semibold'
+          hover:bg-opacity-70 w-[400px] py-4 rounded-full text-lg font-semibold'
           >
             HUBUNGI KAMI SEKARANG
           </a>

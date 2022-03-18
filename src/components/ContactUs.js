@@ -2,7 +2,7 @@ import React from 'react';
 
 const ContactUs = () => {
   return (
-    <div className='bg-[#f8f9fa] text-center py-16' id='contact'>
+    <div className='bg-[#f8f9fa] text-center py-16 contact' id='contact'>
       <h2 className='font-semibold'>
         GAPAI
         <br />
