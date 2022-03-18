@@ -2,13 +2,13 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <div className='flex flex-row h-[790px] w-full bg-gradient-to-r from-cyan-400 to-sky-800'>
-      <div className='w-1/2 flex justify-end items-center'>
+    <div className='flex md:flex-row flex-col md:h-[790px] h-[1580] w-full bg-gradient-to-r from-cyan-400 to-sky-800'>
+      <div className='md:w-1/2 w-full flex md:justify-end md:items-center m-8'>
         <div className='w-3/4 h-3/4 flex flex-col justify-center gap-10'>
-          <p className='text-5xl font-bold text-white'>
+          <p className='md:text-5xl font-bold text-white text-2xl'>
             Layanan keamanan profesional
           </p>
-          <p className='text-white text-2xl'>
+          <p className='text-white md:text-2xl text-lg 2xl:text-left xl:text-left lg:text-left md:text-left sm:text-left text-justify'>
             Memberikan pelayanan kepada perusahaan dan karyawan yang bekerja
             sama dengan kami. Selain menjaga keamanan, satpam juga menjaga apa
             yang harus dilindungi seperti dokumen penting, barang berharga serta
@@ -18,13 +18,13 @@ const Hero = () => {
           <a
             href='#contact'
             className='text-center text-white bg-slate-800 shadow-lg shadow-slate-800/50
-          hover:bg-opacity-70 w-[400px] py-4 rounded-full text-lg font-semibold'
+          hover:bg-opacity-70 w-[400px] md:w-[250px] xl:w-[400px] py-4 rounded-full xl:text-lg md:text-base text-lg font-semibold'
           >
             HUBUNGI KAMI SEKARANG
           </a>
         </div>
       </div>
-      <div className='w-1/2 flex justify-center'>
+      <div className='md:w-1/2 w-full flex justify-center'>
         <img
           src='images/hero.png'
           alt='hero'
