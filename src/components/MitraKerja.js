@@ -61,7 +61,7 @@ const MitraKerja = () => {
               <img
                 src={mitra.imageSrc}
                 alt={mitra.imageAlt}
-                className='object-cover w-52 h-52 rounded-2xl'
+                className='object-cover w-28 h-28 xl:w-52 xl:h-52 rounded-2xl'
               />
             </SplideSlide>
           ))}

@@ -1,5 +1,7 @@
 import React from 'react';
+import HeroYcapai from '../components/HeroYcapai';
 import Layout from '../components/Layout';
+import MotoCapai from '../components/MotoCapai';
 
 const YayasanPendidikan = () => {
   return (
@@ -7,9 +9,10 @@ const YayasanPendidikan = () => {
       company='PT. Garda Media Putra Indonesia'
       subCompany='YAYASAN PENDIDIKAN CIKAL MEDIA PUTRA INDONESIA'
       logoSrc='images/logo-yayasan.jpeg'
-      logoAlt='Logo Yayasan PCMPI'
+      logoAlt='Logo YP CAPAI'
     >
-      <div>YayasanPendidikan</div>
+      <HeroYcapai />
+      <MotoCapai />
     </Layout>
   );
 };
