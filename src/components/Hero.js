@@ -4,7 +4,7 @@ const Hero = () => {
   return (
     <div className='flex md:flex-row flex-col md:h-[790px] h-[1580] w-full bg-gradient-to-r from-cyan-400 to-sky-800'>
       <div className='md:w-1/2 w-full flex md:justify-end md:items-center m-8'>
-        <div className='w-3/4 h-3/4 flex flex-col justify-center gap-10'>
+        <div className='w-3/4 h-3/4 flex flex-col justify-center sm:gap-10 gap-8'>
           <p className='md:text-5xl font-bold text-white text-2xl'>
             Layanan keamanan profesional
           </p>
@@ -18,7 +18,7 @@ const Hero = () => {
           <a
             href='#contact'
             className='text-center text-white bg-slate-800 shadow-lg shadow-slate-800/50
-          hover:bg-opacity-70 w-[400px] md:w-[250px] xl:w-[400px] py-4 rounded-full xl:text-lg md:text-base text-lg font-semibold'
+          hover:bg-opacity-70 w-[300px] md:w-[250px] xl:w-[400px] py-4 rounded-full xl:text-lg md:text-base text-lg font-semibold'
           >
             HUBUNGI KAMI SEKARANG
           </a>
@@ -28,7 +28,7 @@ const Hero = () => {
         <img
           src='images/hero.png'
           alt='hero'
-          className='h-[700px] object-cover self-end'
+          className='sm:h-[800px] h-[400px] object-cover self-end'
         />
       </div>
     </div>

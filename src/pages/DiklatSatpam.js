@@ -1,5 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
+import DetailDiklat from '../components/DetailDiklat';
+import DetailDiklatMadya from '../components/DetailDiklatMadya';
 
 const DiklatSatpam = () => {
   return (
@@ -35,60 +37,71 @@ const DiklatSatpam = () => {
           </svg>
           <h2 className='text-3xl font-bold'>Diklat Satpam</h2>
         </div>
-        <p className='text-xl mb-8'>
+        <p className='text-xl mb-8 mx-3'>
           Training security dan pelatihan satpam adalah pendidikan dan pelatihan
           dasar wajib bagi calon anggota satpam.{' '}
         </p>
-        <div className='flex gap-5'>
-          <div className='text-black bg-white rounded-3xl'>
-            <div className='flex'>
-              <div className='text-left bg-gray-200 rounded-l-3xl px-10 py-14'>
-                <h3 className='text-xl font-bold mb-2'>Fasilitas Pelatihan:</h3>
-                <ul className='list-disc ml-5'>
-                  <li>Baju Kaos Satpam</li>
-                  <li>Topi Satpam</li>
-                  <li>Pin Gada Pratama</li>
-                  <li>Ijazah Gada Pratama</li>
-                  <li>KTA Satpam</li>
-                  <li>Snack dan Makan Siang</li>
-                </ul>
-              </div>
-              <div className='flex flex-col px-20 py-8 font-bold gap-8'>
-                <h3>Pelatihan Gada Pratama</h3>
-                <p>Durasi</p>
-                <p>Rp.0.000.000</p>
-                <div className='bg-[#0070f6] py-2 px-4 text-sm text-white rounded-full'>
-                  <p>Ambil paket Pelatihan</p>
-                </div>
+        <div className='flex flex-col lg:flex-row gap-5 mx-6 mb-32'>
+          <div className='flex flex-col lg:flex-row text-black bg-white rounded-3xl md:w-[760px] lg:w-[500px] xl:w-[600px]'>
+            <div
+              className='text-left bg-gray-200 lg:rounded-tr-none lg:rounded-bl-3xl lg:w-1/2
+            sm:rounded-bl-none sm:rounded-br-none sm:rounded-tl-3xl sm:rounded-tr-3xl rounded-t-3xl px-10 py-14'
+            >
+              <h3 className='text-xl text-center font-bold mb-2'>
+                Fasilitas Pelatihan:
+              </h3>
+              <ul className='list-disc ml-14 md:ml-5 md:pl-56 lg:pl-0'>
+                <li>Baju Kaos Satpam</li>
+                <li>Topi Satpam</li>
+                <li>Pin Gada Pratama</li>
+                <li>Ijazah Gada Pratama</li>
+                <li>KTA Satpam</li>
+                <li>Snack dan Makan Siang</li>
+              </ul>
+            </div>
+            <div className='flex flex-col lg:px-6 px-20 py-8 font-bold gap-8 lg:w-1/2 '>
+              <h3>Pelatihan Gada Pratama</h3>
+              <p>Durasi</p>
+              <p>Rp.0.000.000</p>
+              <div className='bg-[#0070f6] py-2 px-4 text-sm text-white rounded-full'>
+                <p>Ambil paket Pelatihan</p>
               </div>
             </div>
           </div>
 
-          <div className='text-black bg-white rounded-3xl'>
-            <div className='flex'>
-              <div className='text-left bg-gray-200 rounded-l-3xl px-10 py-14'>
-                <h3 className='text-xl font-bold mb-2'>Fasilitas Pelatihan:</h3>
-                <ul className='list-disc ml-5'>
-                  <li>Baju Kaos Satpam</li>
-                  <li>Topi Satpam</li>
-                  <li>Pin Gada Pratama</li>
-                  <li>Ijazah Gada Pratama</li>
-                  <li>KTA Satpam</li>
-                  <li>Snack dan Makan Siang</li>
-                </ul>
-              </div>
-              <div className='flex flex-col px-20 py-8 font-bold gap-8'>
-                <h3>Pelatihan Gada Pratama</h3>
-                <p>Durasi</p>
-                <p>Rp.0.000.000</p>
-                <div className='bg-[#0070f6] py-2 px-4 text-sm text-white rounded-full'>
-                  <p>Ambil paket Pelatihan</p>
-                </div>
+          <div className='flex flex-col lg:flex-row text-black bg-white rounded-3xl md:w-[760px] lg:w-[500px] xl:w-[600px]'>
+            <div
+              className='text-left bg-gray-200 lg:rounded-tr-none lg:rounded-bl-3xl lg:w-1/2
+            sm:rounded-bl-none sm:rounded-br-none sm:rounded-tl-3xl sm:rounded-tr-3xl rounded-t-3xl px-10 py-14'
+            >
+              <h3 className='text-xl text-center font-bold mb-2'>
+                Fasilitas Pelatihan:
+              </h3>
+              <ul className='list-disc ml-14 md:ml-5 md:pl-56 lg:pl-0'>
+                <li>Baju Kaos Diklat (2 Buah)</li>
+                <li>Topi Satpam</li>
+                <li>Tas</li>
+                <li>Pin Gada Madya</li>
+                <li>Nama Bordir</li>
+                <li>Ijazah Gada Madya</li>
+                <li>KTA Gada Madya</li>
+                <li>Snack dan Makan Siang</li>
+                <li>Praktek Latihan Menembak untuk 20 Peserta Terbaik</li>
+              </ul>
+            </div>
+            <div className='flex flex-col lg:px-6 px-20 py-8 font-bold gap-8 lg:w-1/2'>
+              <h3>Pelatihan Gada Madya</h3>
+              <p>Durasi</p>
+              <p>Rp.0.000.000</p>
+              <div className='bg-[#0070f6] py-2 px-4 text-sm text-white rounded-full'>
+                <p>Ambil paket Pelatihan</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <DetailDiklat />
+      <DetailDiklatMadya />
     </Layout>
   );
 };
