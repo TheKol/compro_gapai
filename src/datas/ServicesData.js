@@ -34,7 +34,7 @@ export const SERVICES = [
     serviceUsed: 'UNTUK PERUSAHAAN',
   },
   {
-    serviceTitle: 'Pengadaan diklat SATPAM untuk karir anda',
+    serviceTitle: 'Diklat SATPAM untuk karir anda',
     serviceImg: 'images/diklat-satpam-crop.jpg',
     serviceDesk:
       'Menyediakan pelatihan diklat SATPAM, untuk membuka kesempatan anda berkarir dan membuka peluang kerja.',
