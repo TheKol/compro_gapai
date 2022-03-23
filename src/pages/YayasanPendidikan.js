@@ -3,7 +3,6 @@ import HeroYcapai from '../components/HeroYcapai';
 import Layout from '../components/Layout';
 import MotoCapai from '../components/MotoCapai';
 import SekolahBinaan from '../components/SekolahBinaan';
-import VisiMisi from '../components/VisiMisi';
 
 const YayasanPendidikan = () => {
   return (
