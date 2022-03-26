@@ -19,6 +19,10 @@ const IMAGE_SLIDE = [
     imageSrc: 'images/kegiatan8_800x480.jpeg',
     imageAlt: 'kegiatan 8',
   },
+  {
+    imageSrc: 'images/galery-certi.jpeg',
+    imageAlt: 'kegiatan 9',
+  },
 ];
 
 const Carousel = () => {

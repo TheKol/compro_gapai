@@ -1,6 +1,7 @@
 import React from 'react';
 import Layout from '../components/Layout';
 import ListSupply from '../components/ListSupply';
+import ContactUs from '../components/ContactUs';
 
 const PengadaanBarang = () => {
   return (
@@ -11,7 +12,13 @@ const PengadaanBarang = () => {
         logoSrc='images/logo-pt-gapai.jpeg'
         logoAlt='Logo PT GAPAI'
       >
-        <div className='w-screen h-44 bg-slate-400'></div>
+        <div className='w-screen h-48 bg-slate-400'>
+          <img
+            src='images/gapai-light-crop.jpg'
+            alt='banner gapai'
+            className='object-cover object-center w-full h-full'
+          />
+        </div>
         <div className='flex flex-col items-center'>
           <h2 className='lg:text-4xl md:text-3xl sm:text-2xl text-lg text-center font-extrabold my-7'>
             Jelajahi Katalog Supply Kebutuhan Sekolah
@@ -24,6 +31,7 @@ const PengadaanBarang = () => {
           <p className='w-[760px] p-5 text-center mb-4'></p>
         </div>
         <ListSupply />
+        <ContactUs />
       </Layout>
     </div>
   );

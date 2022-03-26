@@ -8,14 +8,14 @@ import Services from '../components/Services';
 const Home = () => {
   return (
     <>
-      <div className='flex flex-row gap-2 items-center justify-center bg-[#071d2b] py-4'>
+      {/* <div className='flex flex-row gap-2 items-center justify-center bg-[#071d2b] py-4'>
         <img
           src='images/sale-discount-price.svg'
           alt='discount'
           className='w-10 h-10'
         />
         <p className='text-white text-xl font-semibold underline'>Discount</p>
-      </div>
+      </div> */}
       <Layout
         company='PT. Garda Media Putra Indonesia'
         subCompany='GAPAI GUARD'
